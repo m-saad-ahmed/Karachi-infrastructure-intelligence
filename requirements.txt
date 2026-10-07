@@ -1,10 +1,6 @@
-streamlit>=1.35
-pandas
+streamlit
 numpy
-plotly>=6.0
-# app_ui theme uses carto-darkmatter basemap (no token required)
-opencv-python>=4.9,<5   # pinned below OpenCV 5.0 — v5 moved CascadeClassifier (face blur) into opencv-contrib
-pillow
-pytest
-# optional: enables the YOLO baseline (vehicle detection only) and custom models
-# ultralytics
+opencv-python-headless
+Pillow
+pandas
+scikit-learn
