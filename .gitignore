@@ -2,5 +2,7 @@
 __pycache__/
 *.db
 data/raw/*
-models/custom/*.pt
+*.pt
 .venv/
+.pytest_cache/
+experiments/log.json
